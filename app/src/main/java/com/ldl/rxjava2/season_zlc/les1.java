@@ -17,13 +17,6 @@ public class les1 {
         test2();
         System.out.println("--------------分割线-------------");
         test3();
-        try {
-            DecimalFormat decimalFormat = new DecimalFormat(",###");
-            String stPrice = decimalFormat.format(123456.123);
-            System.out.println("stPrice = " + stPrice);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
     private static void test1() {
